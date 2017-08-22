@@ -1,0 +1,140 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [       289.366932,       -33.441592      ]
+      },
+      "properties": {
+        "name": "Importer 1"
+      }
+    },
+   {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [    289.3480445,      -33.4276064     ]
+      },
+      "properties": {
+        "name": "Importer 2",
+		"fono": "+569",
+		"email": "@",
+		"panes": "café de especialidad"
+      }
+   },
+	  
+{
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [     289.357334,     -33.4426392        ]
+      },
+      "properties": {
+        "name": "Importer 3",
+	"fono": "+569",
+	"email": "@",
+	"café": "café de especialidad"
+      }
+},
+	 
+{
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [     289.400381,      -33.406408     ]
+      },
+      "properties": {
+        "name": "Importer 4",
+		"fono": "+569",
+		"email": "@",
+		"panes": "café de especialidad"
+      }
+},
+
+{
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [    289.3565429,   -33.4371291     ]
+      },
+      "properties": {
+        "name": "Importer 5",
+	"fono": "+569",
+	"email": "@",
+	"café": "café de especialidad"
+      }
+},
+
+{
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [   289.4057966,  -33.432204  ]
+      },
+      "properties": {
+        "name": "Importer 5",
+	"fono": "+569",
+	"email": "@",
+	"café": "café de especialidad"
+      }
+},
+
+{
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [      289.3960666,      -33.4147139     ]
+      },
+      "properties": {
+        "name": "Importer 6",
+	"fono": "+569",
+	"email": "@",
+	"café": "café de especialidad"
+      }
+},
+	  
+{
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [     289.2410954,      -33.5080453      ]
+      },
+      "properties": {
+        "name": "Importer 6",
+	"fono": "+569",
+	"email": "@",
+	"café": "café de especialidad"
+      }
+},
+	
+{
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [       289.3768961,      -33.4405433      ]
+      },
+      "properties": {
+        "name": "Importer 7",
+	"fono": "+569",
+	"email": "@",
+	"café": "café de especialidad"
+      }
+},
+	
+{
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [      289.3299505,      -33.4456397     ]
+      },
+      "properties": {
+        "name": "Importer 8",
+	"fono": "+56977999115",
+	"email": "@",
+	"café": "café de especialidad"
+      }
+    }
+  ]
+}
