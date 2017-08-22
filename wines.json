@@ -65,7 +65,7 @@
   {
    "name": "Bowines1",
    "children": [
-    {"name": "DirtySprite", "size": 4833},
+    {"name": "DirtySprite", "size": 6833},
     {"name": "LineSprite", "size": 5332},
     {"name": "TextSprite", "size": 3066}
    ]
@@ -73,7 +73,7 @@
   {
    "name": "flex",
    "children": [
-    {"name": "FlareVis", "size": 4116}
+    {"name": "FlareVis", "size": 14116}
    ]
   },
   {
