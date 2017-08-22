@@ -87,9 +87,8 @@
   {
    "name": "Viña3",
    "children": [
-    {"name": "AggregateExpression", "size": 4616},
-    {"name": "Average", "size": 4891},
-    {"name": "Minimum", "size": 1843},
+    {"name": "AggregateExpression", "size": 3616},
+    {"name": "Average", "size": 3891},
     {"name": "Or", "size": 1970},
     {"name": "Xor", "size": 1101}
    ]
