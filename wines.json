@@ -81,16 +81,14 @@
    "children": [
     {"name": "DragForce", "size": 5082},
     {"name": "Spring", "size": 5213},
-    {"name": "SpringForce", "size": 1681}
+    {"name": "SpringForce", "size": 3681}
    ]
   },
   {
    "name": "Viña3",
    "children": [
-    {"name": "AggregateExpression", "size": 1616},
-    {"name": "Average", "size": 1891},
-    {"name": "Maximum", "size": 1843},
-    {"name": "methods", "size": 2100    },
+    {"name": "AggregateExpression", "size": 4616},
+    {"name": "Average", "size": 4891},
     {"name": "Minimum", "size": 1843},
     {"name": "Or", "size": 1970},
     {"name": "Xor", "size": 1101}
@@ -100,8 +98,8 @@
    "name": "Viña4",
    "children": [
     {"name": "IScaleMap", "size": 2105},
-    {"name": "LinearScale", "size": 1316},
-    {"name": "TimeScale", "size": 833}
+    {"name": "LinearScale", "size": 3316},
+    {"name": "TimeScale", "size": 3833}
    ]
   },
   {
