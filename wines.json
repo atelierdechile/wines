@@ -131,7 +131,7 @@
      "name": "math",
      "children": [
       {"name": "DenseMatrix", "size": 3165},
-      {"name": "IMatrix", "size": 2815},
+      {"name": "IMatrix", "size": 215},
       {"name": "SparseMatrix", "size": 3366}
      ]
     },
