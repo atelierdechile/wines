@@ -163,7 +163,7 @@
     {
      "name": "controls",
      "children": [
-      {"name": "AnchorControl", "size": 2138},
+      {"name": "AnchorControl", "size": 218},
       {"name": "TooltipControl", "size": 835}
      ]
     },
