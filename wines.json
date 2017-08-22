@@ -214,7 +214,7 @@
        "name": "encoder",
        "children": [
         {"name": "ColorEncoder", "size": 379},
-        {"name": "SizeEncoder", "size": 1830}
+        {"name": "SizeEncoder", "size": 130}
        ]
       },
       {
