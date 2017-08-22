@@ -225,21 +225,8 @@
        ]
       },
       {"name": "IOperator", "size": 1286},
-      {
-       "name": "label",
-       "children": [
-        {"name": "Labeler", "size": 996},
-        {"name": "StackedAreaLabeler", "size": 202}
-       ]
-      },
-      {
-       "name": "layout",
-       "children": [
-        {"name": "AxisLayout", "size": 625},
-        {"name": "StackedAreaLayout", "size": 921},
-        {"name": "TreeMapLayout", "size": 191}
-       ]
-      },
+      {"name": "label", "size": 128},
+      {"name": "layout","size": 2286},
       {"name": "Operator", "size": 290},
       {"name": "SortOperator", "size": 223}
      ]
