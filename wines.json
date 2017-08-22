@@ -63,7 +63,7 @@
    ]
   },
   {
-   "name": "Bowines1",
+   "name": "Bowines",
    "children": [
     {"name": "DirtySprite", "size": 9833},
     {"name": "LineSprite", "size": 5332},
@@ -71,13 +71,13 @@
    ]
   },
   {
-   "name": "flex",
+   "name": "Viña1",
    "children": [
     {"name": "FlareVis", "size": 16116}
    ]
   },
   {
-   "name": "physics",
+   "name": "Viña2",
    "children": [
     {"name": "DragForce", "size": 5082},
     {"name": "Spring", "size": 5213},
@@ -85,7 +85,7 @@
    ]
   },
   {
-   "name": "query",
+   "name": "Viña3",
    "children": [
     {"name": "AggregateExpression", "size": 1616},
     {"name": "Average", "size": 1891},
@@ -97,7 +97,7 @@
    ]
   },
   {
-   "name": "scale",
+   "name": "Viña4",
    "children": [
     {"name": "IScaleMap", "size": 2105},
     {"name": "LinearScale", "size": 1316},
@@ -105,7 +105,7 @@
    ]
   },
   {
-   "name": "Bowines",
+   "name": "Viña5",
    "children": [
     {"name": "Arrays", "size": 858},
     {"name": "Filter", "size": 224},
@@ -144,7 +144,7 @@
    ]
   },
   {
-   "name": "vis",
+   "name": "Viña6",
    "children": [
     {
      "name": "axis",
