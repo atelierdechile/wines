@@ -130,9 +130,9 @@
     {
      "name": "math",
      "children": [
-      {"name": "DenseMatrix", "size": 3165},
+      {"name": "DenseMatrix", "size": 365},
       {"name": "IMatrix", "size": 215},
-      {"name": "SparseMatrix", "size": 3366}
+      {"name": "SparseMatrix", "size": 366}
      ]
     },
     {"name": "Maths", "size": 1705},
