@@ -47,25 +47,25 @@
    ]
   },
   {
-   "name": "data",
+   "name": "Attilio & Mochi",
    "children": [
     {
      "name": "converters",
      "children": [
-      {"name": "Converters", "size": 1721},
+      {"name": "Converters", "size": 4721},
       {"name": "IDataConverter", "size": 11314},
       {"name": "JSONConverter", "size": 2220}
      ]
     },
     {"name": "DataField", "size": 1759},
-    {"name": "DataTable", "size": 772},
-    {"name": "DataUtil", "size": 322}
+    {"name": "DataTable", "size": 1772},
+    {"name": "DataUtil", "size": 1322}
    ]
   },
   {
    "name": "display",
    "children": [
-    {"name": "DirtySprite", "size": 833},
+    {"name": "DirtySprite", "size": 1833},
     {"name": "LineSprite", "size": 1732},
     {"name": "TextSprite", "size": 1066}
    ]
