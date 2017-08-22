@@ -112,7 +112,7 @@
    ]
   },
   {
-   "name": "util",
+   "name": "Bowines",
    "children": [
     {"name": "Arrays", "size": 858},
     {"name": "Filter", "size": 2324},
