@@ -229,7 +229,7 @@
        "name": "label",
        "children": [
         {"name": "Labeler", "size": 996},
-        {"name": "StackedAreaLabeler", "size": 3202}
+        {"name": "StackedAreaLabeler", "size": 202}
        ]
       },
       {
