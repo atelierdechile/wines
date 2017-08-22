@@ -104,7 +104,7 @@
   {
    "name": "Viña5",
    "children": [
-    {"name": "Arrays", "size": 158},
+    {"name": "Arrays", "size": 658},
     {"name": "Geometry", "size": 193},
     {
      "name": "heap",
