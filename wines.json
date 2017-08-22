@@ -65,7 +65,7 @@
   {
    "name": "Bowines1",
    "children": [
-    {"name": "DirtySprite", "size": 6833},
+    {"name": "DirtySprite", "size": 9833},
     {"name": "LineSprite", "size": 5332},
     {"name": "TextSprite", "size": 3066}
    ]
@@ -73,14 +73,14 @@
   {
    "name": "flex",
    "children": [
-    {"name": "FlareVis", "size": 14116}
+    {"name": "FlareVis", "size": 16116}
    ]
   },
   {
    "name": "physics",
    "children": [
-    {"name": "DragForce", "size": 1082},
-    {"name": "Spring", "size": 2213},
+    {"name": "DragForce", "size": 5082},
+    {"name": "Spring", "size": 5213},
     {"name": "SpringForce", "size": 1681}
    ]
   },
@@ -88,18 +88,11 @@
    "name": "query",
    "children": [
     {"name": "AggregateExpression", "size": 1616},
-    {"name": "Average", "size": 891},
-    {"name": "Maximum", "size": 843},
-    {
-     "name": "methods",
-     "children": [
-      {"name": "add", "size": 593},
-      {"name": "xor", "size": 354},
-      {"name": "_", "size": 264}
-     ]
-    },
-    {"name": "Minimum", "size": 843},
-    {"name": "Or", "size": 970},
+    {"name": "Average", "size": 1891},
+    {"name": "Maximum", "size": 1843},
+    {"name": "methods", "size": 2100    },
+    {"name": "Minimum", "size": 1843},
+    {"name": "Or", "size": 1970},
     {"name": "Xor", "size": 1101}
    ]
   },
