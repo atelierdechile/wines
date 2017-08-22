@@ -156,7 +156,7 @@
     {
      "name": "axis",
      "children": [
-      {"name": "Axes", "size": 1302},
+      {"name": "Axes", "size": 102},
       {"name": "CartesianAxes", "size": 603}
      ]
     },
@@ -180,7 +180,7 @@
         {"name": "ShapeRenderer", "size": 247}
        ]
       },
-      {"name": "ScaleBinding", "size": 1275},
+      {"name": "ScaleBinding", "size": 175},
       {"name": "TreeBuilder", "size": 930}
      ]
     },
@@ -197,7 +197,7 @@
      "children": [
       {"name": "Legend", "size": 259},
       {"name": "LegendItem", "size": 464},
-      {"name": "LegendRange", "size": 1530}
+      {"name": "LegendRange", "size": 530}
      ]
     },
     {
