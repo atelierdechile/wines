@@ -7,8 +7,8 @@
     {
      "name": "cluster",
      "children": [
-      {"name": "AgglomerativeCluster", "size": 3938},
-      {"name": "CommunityStructure", "size": 3812},
+      {"name": "AgglomerativeCluster", "size": 13938},
+      {"name": "CommunityStructure", "size": 13812},
       {"name": "MergeEdge", "size": 743}
      ]
     },
@@ -31,7 +31,7 @@
   {
    "name": "animate",
    "children": [
-    {"name": "Easing", "size": 17010},
+    {"name": "Easing", "size": 13010},
     {"name": "FunctionSequence", "size": 5842},
     {
      "name": "interpolate",
@@ -52,13 +52,12 @@
     {
      "name": "converters",
      "children": [
-      {"name": "Converters", "size": 721},
-      {"name": "IDataConverter", "size": 1314},
+      {"name": "Converters", "size": 1721},
+      {"name": "IDataConverter", "size": 11314},
       {"name": "JSONConverter", "size": 2220}
      ]
     },
     {"name": "DataField", "size": 1759},
-    {"name": "DataSet", "size": 586},
     {"name": "DataTable", "size": 772},
     {"name": "DataUtil", "size": 322}
    ]
