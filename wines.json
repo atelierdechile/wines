@@ -65,8 +65,8 @@
   {
    "name": "Bowines1",
    "children": [
-    {"name": "DirtySprite", "size": 2833},
-    {"name": "LineSprite", "size": 2732},
+    {"name": "DirtySprite", "size": 4833},
+    {"name": "LineSprite", "size": 3332},
     {"name": "TextSprite", "size": 1066}
    ]
   },
