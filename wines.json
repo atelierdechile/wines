@@ -66,7 +66,7 @@
    "name": "Bowines1",
    "children": [
     {"name": "DirtySprite", "size": 4833},
-    {"name": "LineSprite", "size": 3332},
+    {"name": "LineSprite", "size": 5332},
     {"name": "TextSprite", "size": 3066}
    ]
   },
@@ -115,8 +115,8 @@
    "name": "Bowines",
    "children": [
     {"name": "Arrays", "size": 858},
-    {"name": "Filter", "size": 2324},
-    {"name": "Geometry", "size": 1093},
+    {"name": "Filter", "size": 224},
+    {"name": "Geometry", "size": 193},
     {
      "name": "heap",
      "children": [
