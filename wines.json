@@ -96,7 +96,7 @@
   {
    "name": "Viña4",
    "children": [
-    {"name": "IScaleMap", "size": 2105},
+    {"name": "IScaleMap", "size": 3105},
     {"name": "LinearScale", "size": 3316},
     {"name": "TimeScale", "size": 3833}
    ]
@@ -162,7 +162,6 @@
        "name": "render",
        "children": [
         {"name": "ArrowType", "size": 698},
-        {"name": "IRenderer", "size": 353},
         {"name": "ShapeRenderer", "size": 247}
        ]
       },
@@ -174,7 +173,6 @@
      "name": "events",
      "children": [
       {"name": "DataEvent", "size": 213},
-      {"name": "TooltipEvent", "size": 171},
       {"name": "VisualizationEvent", "size": 117}
      ]
     },
@@ -182,7 +180,6 @@
      "name": "legend",
      "children": [
       {"name": "Legend", "size": 259},
-      {"name": "LegendItem", "size": 464},
       {"name": "LegendRange", "size": 530}
      ]
     },
@@ -211,7 +208,6 @@
        ]
       },
       {"name": "IOperator", "size": 186},
-      {"name": "Operator", "size": 290},
       {"name": "SortOperator", "size": 223}
      ]
     },
