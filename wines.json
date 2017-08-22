@@ -87,7 +87,7 @@
   {
    "name": "Viña3",
    "children": [
-    {"name": "AggregateExpression", "size": 3616},
+    {"name": "AggregateExpression", "size": 4616},
     {"name": "Average", "size": 3891},
     {"name": "Or", "size": 1970},
     {"name": "Xor", "size": 1101}
@@ -96,7 +96,7 @@
   {
    "name": "Viña4",
    "children": [
-    {"name": "IScaleMap", "size": 3105},
+    {"name": "IScaleMap", "size": 4105},
     {"name": "LinearScale", "size": 3316},
     {"name": "TimeScale", "size": 3833}
    ]
