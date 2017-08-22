@@ -2,7 +2,7 @@
  "name": "MOVI",
  "children": [
   {
-   "name": "analytics",
+   "name": "Acrobata",
    "children": [
     {
      "name": "cluster",
@@ -29,7 +29,7 @@
    ]
   },
   {
-   "name": "animate",
+   "name": "Armidita",
    "children": [
     {"name": "Easing", "size": 13010},
     {"name": "FunctionSequence", "size": 5842},
