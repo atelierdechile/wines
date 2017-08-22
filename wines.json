@@ -104,17 +104,17 @@
   {
    "name": "Viña5",
    "children": [
-    {"name": "Arrays", "size": 858},
+    {"name": "Arrays", "size": 158},
     {"name": "Geometry", "size": 193},
     {
      "name": "heap",
      "children": [
-      {"name": "FibonacciHeap", "size": 954},
+      {"name": "FibonacciHeap", "size": 254},
       {"name": "HeapNode", "size": 133}
      ]
     },
     {"name": "IEvaluable", "size": 335},
-    {"name": "IValueProxy", "size": 874},
+    {"name": "IValueProxy", "size": 374},
     {
      "name": "math",
      "children": [
@@ -122,8 +122,8 @@
       {"name": "SparseMatrix", "size": 366}
      ]
     },
-    {"name": "Maths", "size": 1705},
-    {"name": "Orientation", "size": 1486},
+    {"name": "Maths", "size": 705},
+    {"name": "Orientation", "size": 486},
     {
      "name": "palette",
      "children": [
@@ -133,7 +133,7 @@
     },
     {"name": "Property", "size": 559},
     {"name": "Stats", "size": 557},
-    {"name": "Strings", "size": 2026}
+    {"name": "Strings", "size": 226}
    ]
   },
   {
