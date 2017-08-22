@@ -194,13 +194,13 @@
        "name": "distortion",
        "children": [
         {"name": "BifocalDistortion", "size": 441},
-        {"name": "FisheyeDistortion", "size": 344}
+        {"name": "FisheyeDistortion", "size": 444}
        ]
       },
       {
        "name": "encoder",
        "children": [
-        {"name": "ColorEncoder", "size": 379},
+        {"name": "ColorEncoder", "size": 679},
         {"name": "SizeEncoder", "size": 130}
        ]
       },
@@ -208,17 +208,15 @@
        "name": "filter",
        "children": [
         {"name": "FisheyeTreeFilter", "size": 519},
-        {"name": "VisibilityFilter", "size": 359}
+        {"name": "VisibilityFilter", "size": 159}
        ]
       },
-      {"name": "IOperator", "size": 1286},
-      {"name": "label", "size": 128},
-      {"name": "layout","size": 2286},
+      {"name": "IOperator", "size": 186},
       {"name": "Operator", "size": 290},
       {"name": "SortOperator", "size": 223}
      ]
     },
-    {"name": "Visualization", "size": 1540}
+    {"name": "Visualization", "size": 140}
    ]
   }
  ]
