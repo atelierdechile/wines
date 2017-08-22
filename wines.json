@@ -143,14 +143,14 @@
      "name": "axis",
      "children": [
       {"name": "Axes", "size": 102},
-      {"name": "CartesianAxes", "size": 603}
+      {"name": "CartesianAxes", "size": 203}
      ]
     },
     {
      "name": "controls",
      "children": [
       {"name": "AnchorControl", "size": 218},
-      {"name": "TooltipControl", "size": 835}
+      {"name": "TooltipControl", "size": 235}
      ]
     },
     {
@@ -161,7 +161,7 @@
       {
        "name": "render",
        "children": [
-        {"name": "ArrowType", "size": 698},
+        {"name": "ArrowType", "size": 298},
         {"name": "ShapeRenderer", "size": 247}
        ]
       },
@@ -189,14 +189,14 @@
       {
        "name": "distortion",
        "children": [
-        {"name": "BifocalDistortion", "size": 441},
-        {"name": "FisheyeDistortion", "size": 444}
+        {"name": "BifocalDistortion", "size": 241},
+        {"name": "FisheyeDistortion", "size": 244}
        ]
       },
       {
        "name": "encoder",
        "children": [
-        {"name": "ColorEncoder", "size": 679},
+        {"name": "ColorEncoder", "size": 279},
         {"name": "SizeEncoder", "size": 130}
        ]
       },
