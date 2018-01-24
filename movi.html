@@ -3,7 +3,7 @@
 <html>
   <head>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
-    <link type="text/css" rel="stylesheet" href="wines.css"/>
+    <link type="text/css" rel="stylesheet" href="movi.css"/>
     <script type="text/javascript" src="d3_wines.js"></script>
     <script type="text/javascript" src="d3.layout_wines.js"></script>
     <style type="text/css">
@@ -57,7 +57,7 @@ var vis = d3.select("#body").append("div")
 var partition = d3.layout.partition()
     .value(function(d) { return d.size; });
 
-d3.json("wines.json", function(root) {
+d3.json("movi.json", function(root) {
   var g = vis.selectAll("g")
       .data(partition.nodes(root))
     .enter().append("svg:g")
