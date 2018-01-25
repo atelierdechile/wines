@@ -1,8 +1,8 @@
 {
 "name": "flare",
 "children": [
-{"name": "PS García", "children": [{"name": "Vigno", "children": [{"name": ",2014", "children": [{"name": "Tim Atkin", "size": 99}, {"name": "James Suckling", "size": 50}]}]}]},
-{"name": "Vultur", "children": [{"name": "Griphus", "children": [{"name": ",2014", "children": [{"name": "Tim Atkin", "size": 99}, {"name": "James Suckling", "size": 50}]}]}]}
+{"name": "PS García", "children": [{"name": "Vigno", "children": [{"name": ",2014", "children": [{"name": "Tim Atkin", "size": 99}, {"name": "John Suckling", "size": 50}]}]}]},
+{"name": "Vultur", "children": [{"name": "Griphus", "children": [{"name": ",2014", "children": [{"name": "Tim Atkin", "size": 99}, {"name": "John Suckling", "size": 50}]}]}]}
 ]
 }
 
