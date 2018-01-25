@@ -1,32 +1,30 @@
 {
  "name": "flare",
  "children": [
-  {
-   "name": "PS García",
+  {"name": "PS García",
    "children": [
-    {
-     "name": "Vigno",
+    {"name": "Vigno",
      "children": [
       {"name": "Tim Atkin", 
-      "children": [
+        "children": [
                   {"name": "ArrayInterpolator", "critico": "Tim Atkin", "año": 2017, "size": 95},
                   {"name": "PointInterpolator", "critico": "Tim Atkin", "año": 2017, "size": 95},
                   {"name": "RectangleInterpolator", "critico": "Tim Atkin", "año": 2017, "size": 95}
                   ]
       },
-      {"name": "Tim Atkin", "critico": "Tim Atkin", "año": 2017, "size": 95},
-      {"name": "Tim Atkin", "critico": "Tim Atkin", "año": 2017, "size": 95}
+     {"name": "Tim Atkin", "critico": "Tim Atkin", "año": 2017, "size": 95},
+     {"name": "Tim Atkin", "critico": "Tim Atkin", "año": 2017, "size": 95}
      ]
-    },
-    {
-     "name": "Vultur",
+    }
+   ]
+  },
+  {"name": "Vultur",
      "children": [
        {"name": "Tim Atkin", "critico": "Tim Atkin", "año": 2017, "size": 95},
-      {"name": "Tim Atkin", "critico": "Tim Atkin", "año": 2017, "puntaje": 95},
-      {"name": "Tim Atkin", "critico": "Tim Atkin", "año": 2017, "puntaje": 95}
+       {"name": "Tim Atkin", "critico": "Tim Atkin", "año": 2017, "puntaje": 95},
+       {"name": "Tim Atkin", "critico": "Tim Atkin", "año": 2017, "puntaje": 95}
      ]
     }
    ]
   }
- ]
-}
+ 
