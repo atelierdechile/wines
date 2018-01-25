@@ -20,9 +20,9 @@
   },
   {"name": "Vultur",
      "children": [
-       {"name": "Tim Atkin", "critico": "Tim Atkin", "año": 2017, "size": 95},
-       {"name": "Tim Atkin", "critico": "Tim Atkin", "año": 2017, "puntaje": 95},
-       {"name": "Tim Atkin", "critico": "Tim Atkin", "año": 2017, "puntaje": 95}
+       {"name": "Tim Atkin 2", "critico": "Tim Atkin", "año": 2017, "size": 95},
+       {"name": "Tim Atkin 2", "critico": "Tim Atkin", "año": 2017, "puntaje": 95},
+       {"name": "Tim Atkin 2", "critico": "Tim Atkin", "año": 2017, "puntaje": 95}
      ]
     }
    ]
