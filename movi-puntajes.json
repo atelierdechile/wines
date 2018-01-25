@@ -5,26 +5,30 @@
    "children": [
     {"name": "Vigno",
      "children": [
-      {"name": "Tim Atkin", 
+      {"name": "2014", 
         "children": [
-                  {"name": "ArrayInterpolator", "critico": "Tim Atkin", "año": 2017, "size": 95},
-                  {"name": "PointInterpolator", "critico": "Tim Atkin", "año": 2017, "size": 95},
-                  {"name": "RectangleInterpolator", "critico": "Tim Atkin", "año": 2017, "size": 95}
+                  {"name": "Tim Atkin", "size": 99},
+                  {"name": "James Suckling", "size": 99}
                   ]
-      },
-     {"name": "Tim Atkin", "critico": "Tim Atkin", "año": 2017, "size": 95},
-     {"name": "Tim Atkin", "critico": "Tim Atkin", "año": 2017, "size": 95}
+      }   
      ]
     }
    ]
   },
   {"name": "Vultur",
+   "children": [
+    {"name": "Griphus",
      "children": [
-       {"name": "Tim Atkin 2", "critico": "Tim Atkin", "año": 2017, "size": 95},
-       {"name": "Tim Atkin 2", "critico": "Tim Atkin", "año": 2017, "puntaje": 95},
-       {"name": "Tim Atkin 2", "critico": "Tim Atkin", "año": 2017, "puntaje": 95}
+      {"name": "2014", 
+        "children": [
+                  {"name": "Tim Atkin", "size": 50},
+                  {"name": "James Suckling", "size": 50}
+                  ]
+      }   
      ]
     }
    ]
   }
+ ]
+}
  
