@@ -7,7 +7,13 @@
     {
      "name": "Vigno",
      "children": [
-      {"name": "Tim Atkin", "critico": "Tim Atkin", "año": 2017, "size": 95},
+      {"name": "Tim Atkin", 
+      "children": [
+                  {"name": "ArrayInterpolator", "critico": "Tim Atkin", "año": 2017, "size": 95},
+                  {"name": "PointInterpolator", "critico": "Tim Atkin", "año": 2017, "size": 95},
+                  {"name": "RectangleInterpolator", "critico": "Tim Atkin", "año": 2017, "size": 95}
+                  ]
+      },
       {"name": "Tim Atkin", "critico": "Tim Atkin", "año": 2017, "size": 95},
       {"name": "Tim Atkin", "critico": "Tim Atkin", "año": 2017, "size": 95}
      ]
