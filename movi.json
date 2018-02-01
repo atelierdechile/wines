@@ -1,20 +1,20 @@
 {"name": "MOVI", "children": [ 
 {"name": "Acróbata", "children": [
 {"name": "Linea 1", "children": [
-{"name": "Carmenere1", "size": 2000"},
-{"name": "Cabernet Sauvignon1", "size": 2000"}]},
+{"name": "Carmenere1", "size": 2000},
+{"name": "Cabernet Sauvignon1", "size": 2000}]},
 {"name": "Linea 2", "children": [
-{"name": "Carmenere2", "size": 3000"},
-{"name": "Cabernet Sauvignon2", "size": 3000"}]},
+{"name": "Carmenere2", "size": 3000},
+{"name": "Cabernet Sauvignon2", "size": 3000}]},
 {"name": "Linea 3", "children": [
-{"name": "Carmenere3", "size": 4000"} ]} ]},
+{"name": "Carmenere3", "size": 4000} ]} ]},
 {"name": "PS García", "children": [
 {"name": "Sofia", "children": [
-{"name": "Pinot Noir", "size": 10000"},
-{"name": "Syrah", "size": 10000"}]} ]},
+{"name": "Pinot Noir", "size": 10000},
+{"name": "Syrah", "size": 10000}]} ]},
 {"name": "Vultur", "children": [
 {"name": "Griphus", "children": [
-{"name": "CS", "size": 11000"},
-{"name": "Blend", "size": 11000"}]} ]}
+{"name": "CS", "size": 11000},
+{"name": "Blend", "size": 11000}]} ]}
 
 ]}
