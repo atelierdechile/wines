@@ -55,11 +55,15 @@ function sum() {
           //# sourceURL=pen.js
 </script>
     
+    
+<! SEGUNDO VINO -->
+    
 <div class="container text-center">
 <h1>Resumen Puntajes Vino 2</h1>
 <form action="#" class="form-inline">
 <input type="text" id="Sfirst" class="form-control" placeholder="Enter your first number">
 <input type="text" id="Ssecond" class="form-control" placeholder="Enter your second number">
+<input type="text" id="Sthird" class="form-control" placeholder="Enter your third number">
 </form>
 <h2 id="Sresult"></h2>
 </div>
@@ -67,15 +71,18 @@ function sum() {
 <script id="rendered-js">
 var Sfirst = document.getElementById('Sfirst');
 var Ssecond = document.getElementById('Ssecond');
+var Sthird = document.getElementById('Sthird');
 var Sresult = document.getElementById('Sresult');
 
 Sfirst.addEventListener("input", sum);
 Ssecond.addEventListener("input", sum);
+Sthird.addEventListener("input", sum);
 
 function sum() {
   var Sone = parseFloat(Sfirst.value) || 0;
   var Stwo = parseFloat(Ssecond.value) || 0;
-  var Sadd = Sone + Stwo;
+  var Sthree = parseFloat(Sthird.value) || 0;
+  var Sadd = Sone + Stwo + Sthree;
   Sresult.innerHTML = "La suma del vino 2 es " + Sadd;
 }
  //# sourceURL=pen.js
