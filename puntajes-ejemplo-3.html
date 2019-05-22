@@ -1,10 +1,6 @@
 <!DOCTYPE html>
-<!--[if lte IE 9]>
 <html class="ie" lang="en">
-<![endif]-->
-<!--[if gt IE 9]><!-->
 <html lang="en">
-<!--<![endif]-->
 <head>
 <meta charset="UTF-8">
 <title>Points Calculator</title>
@@ -35,8 +31,24 @@ a{
 </style>
 </head>
 
-<body>
+<script>
+var first = document.getElementById('first');
+var second = document.getElementById('second');
+var result = document.getElementById('result');
 
+first.addEventListener("input", sum);
+second.addEventListener("input", sum);
+
+function sum() {
+var one = parseFloat(first.value) || 0;
+var two = parseFloat(second.value) || 0;
+  
+var add = one+two;
+result.innerHTML = "Your Sum is : +add";
+}
+</script>
+
+<body>
 
 <div class="container text-center">
 
@@ -53,24 +65,6 @@ a{
 
   <h2 id="result"></h2>
 </div>
-<script>
-var first = document.getElementById('first');
-var second = document.getElementById('second');
-var result = document.getElementById('result');
 
-first.addEventListener("input", sum);
-second.addEventListener("input", sum);
-
-function sum() {
-  
- var one = parseFloat(first.value) || 0;
-var two = parseFloat(second.value) || 0;
-  
-var add = one+two;
-
-result.innerHTML = "Your Sum is : +add";
-
-}
-</script>
 </body>
 </html>
