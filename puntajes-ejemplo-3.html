@@ -57,32 +57,30 @@ function sum() {
 
 }
           //# sourceURL=pen.js
-        </script>
+</script>
     
 <div class="container text-center">
-<h1>
-Resumen Puntajes Vino 2
-</h1>
+<h1>Resumen Puntajes Vino 2</h1>
 <form action="#" class="form-inline">
-<input type="text" id="2first" class="form-control" placeholder="Enter your first number">
-<input type="text" id="2second" class="form-control" placeholder="Enter your second number">
+<input type="text" id="Sfirst" class="form-control" placeholder="Enter your first number">
+<input type="text" id="Ssecond" class="form-control" placeholder="Enter your second number">
 </form>
-<h2 id="2result"></h2>
+<h2 id="Sresult"></h2>
 </div>
     
 <script id="rendered-js">
-var 2first = document.getElementById('2first');
-var 2second = document.getElementById('2second');
-var 2result = document.getElementById('2result');
+var Sfirst = document.getElementById('Sfirst');
+var Ssecond = document.getElementById('Ssecond');
+var Sresult = document.getElementById('Sresult');
 
-2first.addEventListener("input", sum);
-2second.addEventListener("input", sum);
+Sfirst.addEventListener("input", sum);
+Ssecond.addEventListener("input", sum);
 
 function sum() {
-  var 2one = parseFloat(first.value) || 0;
-  var 2two = parseFloat(second.value) || 0;
-  var 2add = 2one + 2two;
-  2result.innerHTML = "La suma del vino 2 es " + 2add;
+  var Sone = parseFloat(first.value) || 0;
+  var Stwo = parseFloat(second.value) || 0;
+  var Sadd = Sone + Stwo;
+  Sresult.innerHTML = "La suma del vino 2 es " + Sadd;
 
 }
  //# sourceURL=pen.js
