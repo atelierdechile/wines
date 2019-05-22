@@ -8,25 +8,7 @@
 <head>
 <meta charset="UTF-8">
 <title>Points Calculator</title>
- <script>
-var first = document.getElementById('first');
-var second = document.getElementById('second');
-var result = document.getElementById('result');
-
-first.addEventListener("input", sum);
-second.addEventListener("input", sum);
-
-function sum() {
-  
- var one = parseFloat(first.value) || 0;
-var two = parseFloat(second.value) || 0;
-  
-var add = one+two;
-
-result.innerHTML = "Your Sum is : " + add;
-
-}
-</script>
+ 
 <style 
   body{
   padding: 50px;
@@ -51,10 +33,28 @@ a{
   
 }
 </style>
- 
 </head>
 
 <body>
+<script>
+var first = document.getElementById('first');
+var second = document.getElementById('second');
+var result = document.getElementById('result');
+
+first.addEventListener("input", sum);
+second.addEventListener("input", sum);
+
+function sum() {
+  
+ var one = parseFloat(first.value) || 0;
+var two = parseFloat(second.value) || 0;
+  
+var add = one+two;
+
+result.innerHTML = "Your Sum is : " + add;
+
+}
+</script>
 
 <div class="container text-center">
 
