@@ -24,17 +24,18 @@ a{
     font-size : 20px;
   }
   
-}</style></head><body>
+}</style>
+  </head>
+  <body>
 <div class="container text-center">
 <h1>
-Resumen Puntajes de Vinos
+Resumen Puntajes Vino 1
 </h1>
 <form action="#" class="form-inline">
 <input type="text" id="first" class="form-control" placeholder="Enter your first number">
 <input type="text" id="second" class="form-control" placeholder="Enter your second number">
 </form>
 <h2 id="result"></h2>
-
 </div>
 <script src='https://static.codepen.io/assets/common/stopExecutionOnTimeout-de7e2ef6bfefd24b79a3f68b414b87b8db5b08439cac3f1012092b2290c719cd.js'></script>
 <script id="rendered-js">
@@ -52,9 +53,42 @@ function sum() {
 
   var add = one + two;
 
-  result.innerHTML = "La suma del vino es " + add;
+  result.innerHTML = "La suma del vino 1 es " + add;
 
 }
           //# sourceURL=pen.js
         </script>
+    
+<div class="container text-center">
+<h1>
+Resumen Puntajes Vino 2
+</h1>
+<form action="#" class="form-inline">
+<input type="text" id="2first" class="form-control" placeholder="Enter your first number">
+<input type="text" id="2second" class="form-control" placeholder="Enter your second number">
+</form>
+<h2 id="result"></h2>
+</div>
+    
+<script id="rendered-js">
+var 2first = document.getElementById('first');
+var 2second = document.getElementById('second');
+var 2result = document.getElementById('result');
+
+2first.addEventListener("input", sum);
+2second.addEventListener("input", sum);
+
+function sum() {
+
+  var 2one = parseFloat(first.value) || 0;
+  var 2two = parseFloat(second.value) || 0;
+
+  var 2add = 2one + 2two;
+
+  result.innerHTML = "La suma del vino 32es " + 2add;
+
+}
+ //# sourceURL=pen.js
+</script>
+    
 </body></html>
