@@ -1,0 +1,146 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"> 
+  
+<head> 
+  <title></title> 
+<script type="text/javascript"> 
+/*<![CDATA[*/ 
+  
+function addRow() 
+{ 
+// grab the element, i.e. the table your editing, in this we're calling it 
+// 'mySampleTable' and it is reffered to in the table further down on the page 
+// with a unique of id of you guessed it, 'mySampleTable' 
+var tbl = document.getElementById('mySampleTable'); 
+// grab how many rows are in the table 
+var lastRow = tbl.rows.length; 
+  
+// if there's no header row in the table (there should be, code at least one 
+//manually!), then iteration = lastRow + 1 
+var iteration = lastRow; 
+// creates a new row 
+var row = tbl.insertRow(lastRow); 
+  
+// left cell 
+// insert a cell 
+var cellLeft = row.insertCell(0); 
+// here we're just using numbering the cell, like anything else you don't 
+// have to use this, but i've kinda noticed users tend to like them 
+var textNode = document.createTextNode(iteration); 
+// takes what we did (create the plain text number) and appends it the cell 
+// we created in the row we created. NEAT! 
+cellLeft.appendChild(textNode); 
+  
+// right cell 
+// another cell! 
+var cellRight = row.insertCell(1); 
+// creating an element this time, specifically an input 
+var el = document.createElement('input'); 
+// a data type of text 
+el.type = 'text'; 
+// the name of the element txtRow, and because this is dynamic we also 
+// append the row number to it, so for example if this is the eigth row 
+// being created the text box will have the name of txtRow8. super fantastic. 
+el.name = 'txtRow' + iteration; 
+// the exact same thing with a unique id 
+el.id = 'txtRow' + iteration; 
+// set it to size of 40. setting sizes is good. 
+el.size = 40; 
+  
+// same thing as earlier, append our element to our freshly and clean cell 
+cellRight.appendChild(el); 
+  
+// select cell 
+// our last cell! 
+var cellRightSel = row.insertCell(2); 
+// create another element, this time a select box 
+var sel = document.createElement('select'); 
+// name it, once again with an iteration (selRow8 using the example above) 
+sel.name = 'selRow' + iteration; 
+// crates options in an array 
+// the Option() function takes the first parameter of what is being displayed 
+// from within the drop down, and the second parameter of the value it is carrying over 
+sel.options[0] = new Option('text zero', 'value0'); 
+sel.options[1] = new Option('text one', 'value1'); 
+sel.options[2] = new Option('text two', 'value2'); 
+// append our new element containing new options to our new cell 
+cellRightSel.appendChild(sel); 
+} 
+  
+function removeRow() 
+{ 
+// grab the element again! 
+var tbl = document.getElementById('mySampleTable'); 
+// grab the length! 
+var lastRow = tbl.rows.length; 
+// delete the last row if there is more than one row! 
+if (lastRow > 2) tbl.deleteRow(lastRow - 1); 
+} 
+/*]]>*/ 
+</script> 
+  
+<script type="text/javascript"> 
+  
+function sum(){ 
+ } 
+  
+</script> 
+</head> 
+  
+<body> 
+<form action="miro.html" name="eval_edit" method="post" format="html"> 
+<table align="center" width = "75%"> 
+<tr> 
+<td align = "center"> 
+click add to you know, add a row, and remove to remove a row, and submit to submit your page! whee! 
+</td> 
+</tr> 
+<tr> 
+<td align = "center"> 
+<!--- very imporant to give the table an id ---> 
+<!--- otherwise it won't know where to edit ---> 
+<table border="1" id="mySampleTable"> 
+<tr> 
+<td> 
+Lesson 
+</td> 
+<td> 
+Title 
+</td> 
+<td> 
+Instructor 
+</td> 
+</tr> 
+<!--- i create the initial row by hand, there are a lot of ---> 
+<!--- different ways to do this depending on what parsing ---> 
+<!--- language you use, i found this was easiest for the ---> 
+<!--- snippet, but experiment, do your thing mang. ---> 
+<!--- this matches the same specs we laid out in the javascript ---> 
+<tr> 
+<td> 
+1 
+</td> 
+<td> 
+<input type="text" name="txtRow1" id="txtRow1" size="40" /></td> 
+<td> 
+<select name="selRow0"> 
+<option value="value0">text zero</option> 
+<option value="value1">text one</option> 
+<option value="value2">text two</option> 
+</select> 
+</td> 
+</tr> 
+</table> 
+ <input name="total" /> 
+<!--- our buttons call our javascript functions when clicked ---> 
+<input type="button" value="Add" onclick="addRow();" /> 
+<input type="button" value="Remove" onclick="removeRow();" /> 
+<input type="button" value="SUM" onClick="sum()"/> 
+<input type="submit" value="Submit" /> 
+</td> 
+</tr> 
+</table> 
+</form> 
+  
+</body> 
+  
+</html>
