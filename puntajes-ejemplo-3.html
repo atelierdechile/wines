@@ -1,12 +1,8 @@
-<!DOCTYPE html>
-<html class="ie" lang="en">
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<title>Points Calculator</title>
- 
-<style 
-  body{
+
+<!DOCTYPE html><html lang='en' class=''>
+<head><script src='https://static.codepen.io/assets/editor/live/console_runner-1df7d3399bdc1f40995a35209755dcfd8c7547da127f6469fd81e5fba982f6af.js'></script><script src='https://static.codepen.io/assets/editor/live/css_reload-5619dc0905a68b2e6298901de54f73cefe4e079f65a75406858d92924b4938bf.js'></script><meta charset='UTF-8'><meta name="robots" content="noindex"><link rel="shortcut icon" type="image/x-icon" href="https://static.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico" /><link rel="mask-icon" type="" href="https://static.codepen.io/assets/favicon/logo-pin-8f3771b1072e3c38bd662872f6b673a722f4b3ca2421637d5596661b4e2132cc.svg" color="#111" /><link rel="canonical" href="https://codepen.io/anon/pen/LoeMNN?editors=1111" />
+<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+<style class="cp-pen-styles">body{
   padding: 50px;
   background-color: #eef269;
  }
@@ -27,28 +23,41 @@ a{
     font-size : 20px;
   }
   
-}
-</style>
-</head>
-
-<body>
-
+}</style></head><body>
 <div class="container text-center">
-
-  <h1>
-    Tabla de Puntos Personales
-  </h1>
-
-<form action="value" class="form-inline">
-  
-  <input type="text" id="first"class="form-control" placeholder="Enter your first number">
-  <input type="text" id="second" class="form-control" placeholder="Enter your second number">
+<h1>
+JavaScript Dynamic Addition
+</h1>
+<form action="#" class="form-inline">
+<input type="text" id="first" class="form-control" placeholder="Enter your first number">
+<input type="text" id="second" class="form-control" placeholder="Enter your second number">
 </form>
-
 <h2 id="result"></h2>
+Pen By<a href="https://www.facebook.com/iamsrithanreddy">
+Srithan Reddy
+</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Follow Me on <a href="https://twitter.com/iamsrithan">
+Twitter </a>
 </div>
+<script src='https://static.codepen.io/assets/common/stopExecutionOnTimeout-de7e2ef6bfefd24b79a3f68b414b87b8db5b08439cac3f1012092b2290c719cd.js'></script>
+<script id="rendered-js">
+          var first = document.getElementById('first');
+var second = document.getElementById('second');
+var result = document.getElementById('result');
 
+first.addEventListener("input", sum);
+second.addEventListener("input", sum);
 
+function sum() {
 
-</body>
-</html>
+  var one = parseFloat(first.value) || 0;
+  var two = parseFloat(second.value) || 0;
+
+  var add = one + two;
+
+  result.innerHTML = "Your Sum is : " + add;
+
+}
+          //# sourceURL=pen.js
+        </script>
+</body></html>
