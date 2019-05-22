@@ -39,7 +39,7 @@ Resumen Puntajes Vino 1
 </div>
 <script src='https://static.codepen.io/assets/common/stopExecutionOnTimeout-de7e2ef6bfefd24b79a3f68b414b87b8db5b08439cac3f1012092b2290c719cd.js'></script>
 <script id="rendered-js">
-          var first = document.getElementById('first');
+var first = document.getElementById('first');
 var second = document.getElementById('second');
 var result = document.getElementById('result');
 
@@ -47,14 +47,10 @@ first.addEventListener("input", sum);
 second.addEventListener("input", sum);
 
 function sum() {
-
   var one = parseFloat(first.value) || 0;
   var two = parseFloat(second.value) || 0;
-
   var add = one + two;
-
   result.innerHTML = "La suma del vino 1 es " + add;
-
 }
           //# sourceURL=pen.js
 </script>
@@ -81,9 +77,9 @@ function sum() {
   var Stwo = parseFloat(Ssecond.value) || 0;
   var Sadd = Sone + Stwo;
   Sresult.innerHTML = "La suma del vino 2 es " + Sadd;
-
 }
  //# sourceURL=pen.js
 </script>
     
-</body></html>
+</body>
+</html>
