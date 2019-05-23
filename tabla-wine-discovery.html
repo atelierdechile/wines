@@ -30,9 +30,10 @@ a{
   
 }</style>
 </head>
-
   
-  <body>
+<body>
+  
+<!-- PRIMER VINO -->
 <div class="container text-center">
 <h1> Resumen Puntajes Vino 1 </h1>
 <form action="#" class="form-inline">
@@ -92,5 +93,39 @@ function sum() {
  //# sourceURL=pen.js
 </script>
     
+<!-- TERCER VINO -->
+<br>    
+<div class="container text-center">
+<h1>Resumen Puntajes Vino 3</h1>
+<form action="#" class="form-inline">
+<input type="text" id="Tfirst" class="form-control" placeholder="Enter your first number">
+<input type="text" id="Tsecond" class="form-control" placeholder="Enter your second number">
+<input type="text" id="Tthird" class="form-control" placeholder="Enter your third number">
+</form>
+<h2 id="Tresult"></h2>
+</div>
+    
+<script id="rendered-js">
+var Tfirst = document.getElementById('Tfirst');
+var Tsecond = document.getElementById('Tsecond');
+var TSthird = document.getElementById('Tthird');
+var Tresult = document.getElementById('Tresult');
+
+Tfirst.addEventListener("input", sum);
+Tsecond.addEventListener("input", sum);
+TSthird.addEventListener("input", sum);
+
+function sum() {
+  var Tone = parseFloat(Tfirst.value) || 0;
+  var Ttwo = parseFloat(Tsecond.value) || 0;
+  var Tthree = parseFloat(Tthird.value) || 0;
+  var Tadd = Tone + Ttwo + Tthree;
+  Tresult.innerHTML = "La suma del vino 3 es " + Sadd;
+}
+ //# sourceURL=pen.js
+</script>  
+  
+  
+  
 </body>
 </html>
