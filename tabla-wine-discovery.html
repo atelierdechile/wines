@@ -1,0 +1,96 @@
+<!DOCTYPE html><html lang='en' class=''>
+<!-- https://codepen.io/anon/pen/LoeMNN -->
+<head>
+<script src='https://static.codepen.io/assets/editor/live/console_runner-1df7d3399bdc1f40995a35209755dcfd8c7547da127f6469fd81e5fba982f6af.js'></script><script src='https://static.codepen.io/assets/editor/live/css_reload-5619dc0905a68b2e6298901de54f73cefe4e079f65a75406858d92924b4938bf.js'></script><meta charset='UTF-8'>
+<meta name="robots" content="noindex">
+<link rel="shortcut icon" type="image/x-icon" href="https://static.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico" />
+<link rel="mask-icon" type="" href="https://static.codepen.io/assets/favicon/logo-pin-8f3771b1072e3c38bd662872f6b673a722f4b3ca2421637d5596661b4e2132cc.svg" color="#111" /><link rel="canonical" href="https://codepen.io/anon/pen/LoeMNN?editors=1111" />
+<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+<style class="cp-pen-styles">
+  body{
+  padding: 50px;
+  background-color: #eef269;
+ }
+ h1{
+  padding: 10px;
+  margin-bottom: 30px;
+ }
+a{
+  font-size: 16px;
+}
+@media only screen and (max-width: 767px) {
+  input,.form-control{
+    display : inline-block !important;
+    width: 300px !important;
+    margin-bottom: 15px !important;
+  }
+  h2{
+    font-size : 20px;
+  }
+  
+}</style>
+</head>
+
+  
+  <body>
+<div class="container text-center">
+<h1> Resumen Puntajes Vino 1 </h1>
+<form action="#" class="form-inline">
+<input type="text" id="first" class="form-control" placeholder="Enter your first number">
+<input type="text" id="second" class="form-control" placeholder="Enter your second number">
+</form>
+<h2 id="result"></h2>
+</div>
+<script src='https://static.codepen.io/assets/common/stopExecutionOnTimeout-de7e2ef6bfefd24b79a3f68b414b87b8db5b08439cac3f1012092b2290c719cd.js'></script>
+<script id="rendered-js">
+var first = document.getElementById('first');
+var second = document.getElementById('second');
+var result = document.getElementById('result');
+
+first.addEventListener("input", sum);
+second.addEventListener("input", sum);
+
+function sum() {
+  var one = parseFloat(first.value) || 0;
+  var two = parseFloat(second.value) || 0;
+  var add = one + two;
+  result.innerHTML = "La suma del vino 1 es " + add;
+}
+          //# sourceURL=pen.js
+</script>
+    
+    
+<!-- SEGUNDO VINO -->
+<br>    
+<div class="container text-center">
+<h1>Resumen Puntajes Vino 2</h1>
+<form action="#" class="form-inline">
+<input type="text" id="Sfirst" class="form-control" placeholder="Enter your first number">
+<input type="text" id="Ssecond" class="form-control" placeholder="Enter your second number">
+<input type="text" id="Sthird" class="form-control" placeholder="Enter your third number">
+</form>
+<h2 id="Sresult"></h2>
+</div>
+    
+<script id="rendered-js">
+var Sfirst = document.getElementById('Sfirst');
+var Ssecond = document.getElementById('Ssecond');
+var Sthird = document.getElementById('Sthird');
+var Sresult = document.getElementById('Sresult');
+
+Sfirst.addEventListener("input", sum);
+Ssecond.addEventListener("input", sum);
+Sthird.addEventListener("input", sum);
+
+function sum() {
+  var Sone = parseFloat(Sfirst.value) || 0;
+  var Stwo = parseFloat(Ssecond.value) || 0;
+  var Sthree = parseFloat(Sthird.value) || 0;
+  var Sadd = Sone + Stwo + Sthree;
+  Sresult.innerHTML = "La suma del vino 2 es " + Sadd;
+}
+ //# sourceURL=pen.js
+</script>
+    
+</body>
+</html>
