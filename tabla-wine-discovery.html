@@ -112,6 +112,72 @@ function sum() {
 <script id="rendered-js">
 var Tfirst = document.getElementById('Tfirst');
 var Tsecond = document.getElementById('Tsecond');
+var Tthird = document.getElementById('Tthird');
+var Tresult = document.getElementById('Tresult');
+
+Tfirst.addEventListener("input", sum);
+Tsecond.addEventListener("input", sum);
+Tthird.addEventListener("input", sum);
+
+function sum() {
+  var Tone = parseFloat(Tfirst.value) || 0;
+  var Ttwo = parseFloat(Tsecond.value) || 0;
+  var Tthree = parseFloat(Tthird.value) || 0;
+  var Tadd = Tone + Ttwo + Tthree;
+  Tresult.innerHTML = "La suma del vino 3 es " + Tadd;
+}
+ //# sourceURL=pen.js
+</script>  
+  
+
+<!-- CUARTO VINO -->
+<br>    
+<div class="container text-center">
+<h1>Resumen Puntajes Vino 3</h1>
+<form action="#" class="form-inline">
+<input type="text" id="FOfirst" class="form-control" placeholder="Enter your first number">
+<input type="text" id="FOsecond" class="form-control" placeholder="Enter your second number">
+<input type="text" id="FOthird" class="form-control" placeholder="Enter your third number">
+</form>
+<h2 id="FOresult"></h2>
+</div>
+    
+<script id="rendered-js">
+var FOfirst = document.getElementById('FOfirst');
+var FOsecond = document.getElementById('FOsecond');
+var FOSthird = document.getElementById('FOthird');
+var FOresult = document.getElementById('FOresult');
+
+FOfirst.addEventListener("input", sum);
+FOsecond.addEventListener("input", sum);
+FOthird.addEventListener("input", sum);
+
+function sum() {
+  var FOone = parseFloat(FOfirst.value) || 0;
+  var FOtwo = parseFloat(FOsecond.value) || 0;
+  var FOthree = parseFloat(FOthird.value) || 0;
+  var Tadd = FOone + FOtwo + FOthree;
+  FOresult.innerHTML = "La suma del vino 3 es " + Tadd;
+}
+ //# sourceURL=pen.js
+</script>  
+
+  
+<!-- QUINTO VINO -->
+<br>    
+<div class="container text-center">
+<h1>Resumen Puntajes Vino 3</h1>
+<form action="#" class="form-inline">
+<input type="text" id="Tfirst" class="form-control" placeholder="Enter your first number">
+<input type="text" id="Tsecond" class="form-control" placeholder="Enter your second number">
+<input type="text" id="Tthird" class="form-control" placeholder="Enter your third number">
+</form>
+<h2 id="Tresult"></h2>
+</div>
+    
+<script id="rendered-js">
+var Tfirst = document.getElementById('Tfirst');
+var Tsecond = document.getElementById('Tsecond');
 var TSthird = document.getElementById('Tthird');
 var Tresult = document.getElementById('Tresult');
 
@@ -128,7 +194,8 @@ function sum() {
 }
  //# sourceURL=pen.js
 </script>  
-  
+
+
   
   
 </body>
