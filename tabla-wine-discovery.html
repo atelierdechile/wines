@@ -39,6 +39,7 @@ a{
 <form action="#" class="form-inline">
 <input type="text" id="first" class="form-control" placeholder="Enter your first number">
 <input type="text" id="second" class="form-control" placeholder="Enter your second number">
+<input type="text" id="third" class="form-control" placeholder="Enter your third number">
 </form>
 <h2 id="result"></h2>
 </div>
@@ -46,15 +47,18 @@ a{
 <script id="rendered-js">
 var first = document.getElementById('first');
 var second = document.getElementById('second');
+var third = document.getElementById('third');
 var result = document.getElementById('result');
 
 first.addEventListener("input", sum);
 second.addEventListener("input", sum);
-
+third.addEventListener("input", sum);
+  
 function sum() {
   var one = parseFloat(first.value) || 0;
   var two = parseFloat(second.value) || 0;
-  var add = one + two;
+  var three = parseFloat(third.value) || 0;
+  var add = one + two + three;
   result.innerHTML = "La suma del vino 1 es " + add;
 }
           //# sourceURL=pen.js
